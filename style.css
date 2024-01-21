@@ -1,0 +1,95 @@
+/* .buttons {
+    text-align: center; 
+  }
+  
+  button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #4CAF50; 
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #noButton {
+    background-color: #f44336; 
+  }
+   */
+
+/* 
+#yesButton {
+    background-color: #2196F3; 
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15); 
+  }
+  
+  #yesButton:hover {
+    background-color: #1E88E5; 
+  }
+  
+ 
+  #noButton {
+    background-color: #F44336; 
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15); 
+  }
+  
+  #noButton:hover {
+    background-color: #E53935; 
+  } */
+  
+
+  body {
+    text-align: center; /* Center the container */
+    margin: 0; /* Remove default margins */
+    height: 100vh; /* Fill the viewport */
+    display: flex; /* Center content vertically */
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5; /* Optional background color */
+  }
+  
+  .button-container {
+    display: flex; /* Position buttons side-by-side */
+    gap: 15px; /* Optional gap between buttons */
+  }
+  
+  button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase; /* Optional styling */
+  }
+  
+  #yesButton {
+    background: linear-gradient(to right, #4CAF50, #2E7D32); /* Green gradient */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* Add a subtle shadow */
+  }
+  
+  #yesButton:hover {
+    background: linear-gradient(to right, #388E3C, #275E2A); /* Darker green on hover */
+  }
+  
+  #noButton {
+    background: linear-gradient(to right, #F44336, #D32F2F); /* Red gradient */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* Add a subtle shadow */
+  }
+  
+  #noButton:hover {
+    background: linear-gradient(to right, #E53935, #C62828); /* Darker red on hover */
+  }
+  
+  .button-wrapper {
+    position: relative; /* Allow text to be positioned absolutely */
+  }
+  
+  .button-text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-10%, -50%); /*Center the text */
+    color: red; /* Adjust color as needed */
+    font-weight: bold;
+    text-transform: uppercase; /* Optional styling */
+  }

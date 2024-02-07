@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rose Day - Page 2</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffe6e6; /* Romantic background color */
+  }
+
+  .box-container {
+    width: 200px; /* Adjust container width as needed */
+  }
+
+  .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #ff8080; /* Box color */
+    border-radius: 10px;
+  }
+
+  .lid {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: #ff0000; /* Lid color */
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.5
+  }
+
+  .message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff8080; /* Message box color */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    display: none;
+    
+  }
+</style>
+</head>
+<body>
+  <div class="box-container">
+    <div class="box">
+      <div class="lid" id = "lid" onclick="revealMessage()">Click here</div>
+      <div class="message" id="message">Happy Rose Day🌹🌹🌹😍😍😍❤️❤️❤️</div>
+    </div>
+  </div>
+
+  <script>
+    function revealMessage() {
+      document.getElementById('message').style.display = 'block';
+      document.getElementById('lid').style.display = 'none';
+    }
+
+
+
+  </script>
+</body>
+</html>

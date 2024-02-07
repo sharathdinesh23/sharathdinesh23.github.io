@@ -1,0 +1,101 @@
+ /* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffe6e6; 
+}
+
+.animated-button {
+  font-size: 16px;
+  padding: 15px 30px;
+  background-color: #ff8080;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  animation: pulse 1s infinite alternate; 
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.1); }
+}
+  header, footer {
+    background-color: pink; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: pink; 
+    border-bottom: 2px solid pink;
+    padding-bottom: 10px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+ 
+  .animated-header {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .animated-section {
+    animation: slideInFromTop 1s ease-in-out;
+  }
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+
+ */
+
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: pink; /* Adjust colors as per your preference */
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: grey; /* Adjust colors as per your preference */
+  border-bottom: 2px solid pink; /* Adjust colors as per your preference */
+  padding-bottom: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
